@@ -35,7 +35,7 @@ module Segment_E (
     and3_gate and1_inst (
         .a(not_A), // Entrada A negada
         .b(not_B), // Entrada B negada
-        .c(C),
+        .c(not_C),
         .y(and1)
     );
 

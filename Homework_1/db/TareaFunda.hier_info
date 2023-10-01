@@ -159,7 +159,7 @@ y <= y.DB_MAX_OUTPUT_PORT_TYPE
 |encoder_7Seg|Segment_E:segment_E_inst
 A => A.IN2
 B => B.IN2
-C => C.IN4
+C => C.IN3
 segment_E <= or3_gate:or_inst.y
 
 
@@ -208,7 +208,7 @@ y <= y.DB_MAX_OUTPUT_PORT_TYPE
 
 |encoder_7Seg|Segment_F:segment_F_inst
 A => A.IN3
-B => B.IN3
+B => B.IN2
 C => C.IN2
 segment_F <= or3_gate:or_inst.y
 

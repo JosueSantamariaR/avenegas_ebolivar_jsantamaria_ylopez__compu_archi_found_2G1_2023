@@ -41,7 +41,7 @@ module Segment_F (
     // Compuerta AND de 3 entradas para A negado, B y C negado
     and3_gate and2_inst (
         .a(not_A), // Entrada A negada
-        .b(B),
+        .b(not_B),
         .c(not_C), // Entrada C negada
         .y(and2)
     );
