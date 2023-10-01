@@ -1,0 +1,384 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/simulation/modelsim
+vand2_gate
+Z1 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z2 !s110 1696123519
+!i10b 1
+!s100 eNXWfFePdl]cL=1_0j=AT3
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ihz@^h]?9mPUO8>AGHS^2_3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+S1
+R0
+Z5 w1696117537
+Z6 8C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/gates.sv
+Z7 FC:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/gates.sv
+!i122 0
+L0 1 7
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1696123519.000000
+Z10 !s107 C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/gates.sv|
+Z11 !s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp|C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/gates.sv|
+!i113 1
+Z12 o-sv -work work
+Z13 !s92 -sv -work work {+incdir+C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp}
+Z14 tCvgOpt 0
+vand3_gate
+R1
+R2
+!i10b 1
+!s100 bAHU1fcc:inE^HiRig?4]2
+R3
+I>AoB80Y:[Q_>5cH4XZQcn3
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 9 8
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vencoder_7Seg
+R1
+Z15 !s110 1696123520
+!i10b 1
+!s100 <SCO]O5cFS_?_7daacUCT2
+R3
+I2MIWe<fIAl`JFSnDKmmfU3
+R4
+S1
+R0
+w1696120232
+8C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/encoder_7Seg.sv
+FC:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/encoder_7Seg.sv
+!i122 8
+Z16 L0 1 63
+R8
+r1
+!s85 0
+31
+Z17 !s108 1696123520.000000
+!s107 C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/encoder_7Seg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp|C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/encoder_7Seg.sv|
+!i113 1
+R12
+R13
+R14
+nencoder_7@seg
+vencoder_7Seg_TB
+R1
+R15
+!i10b 1
+!s100 KlF=J6AC2alY_<>HCgAaP2
+R3
+IQzCIdKZBP_hCMU5Hlfz2Y3
+R4
+S1
+R0
+w1696123486
+8C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/encoder_7Seg_TB.sv
+FC:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/encoder_7Seg_TB.sv
+!i122 9
+L0 65 39
+R8
+r1
+!s85 0
+31
+R17
+!s107 C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/encoder_7Seg_TB.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp|C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/encoder_7Seg_TB.sv|
+!i113 1
+R12
+R13
+R14
+nencoder_7@seg_@t@b
+vnot_gate
+R1
+R2
+!i10b 1
+!s100 3RlX:YHmi1[gAQdg>GZRm2
+R3
+IVE>FEZk2n9Acg2nEBNa?@1
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 35 6
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vor2_gate
+R1
+R2
+!i10b 1
+!s100 iXe7oj9HPABU4YU9_z5Gj1
+R3
+I2QfQ:`h0<J_SYZQEP^kZ<3
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 18 7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vor3_gate
+R1
+R2
+!i10b 1
+!s100 O:CWe=DZcA7d?6?NcM7Id2
+R3
+I0=[@T`XF<PcY@h;PJohh:2
+R4
+S1
+R0
+R5
+R6
+R7
+!i122 0
+L0 26 8
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+R14
+vSegment_A
+R1
+R2
+!i10b 1
+!s100 ?0^@>@mil]^;5=94n@IDZ0
+R3
+INhGEZ;7R[hiB9H3CceAD[0
+R4
+S1
+R0
+w1696119163
+8C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_A.sv
+FC:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_A.sv
+!i122 1
+L0 1 58
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_A.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp|C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_A.sv|
+!i113 1
+R12
+R13
+R14
+n@segment_@a
+vSegment_B
+R1
+R2
+!i10b 1
+!s100 eM4oA@FiK^N3LdcP2K@7@3
+R3
+IPchD`Vh7V[C=]1LlPTBIa2
+R4
+S1
+R0
+w1696119146
+8C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_B.sv
+FC:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_B.sv
+!i122 2
+L0 1 29
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_B.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp|C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_B.sv|
+!i113 1
+R12
+R13
+R14
+n@segment_@b
+vSegment_C
+R1
+R2
+!i10b 1
+!s100 zCcCfV49>DYz]TLUc1RYL3
+R3
+Iif1XAm^8jkN`GNzj^9NQO1
+R4
+S1
+R0
+w1696119130
+8C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_C.sv
+FC:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_C.sv
+!i122 3
+L0 1 38
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_C.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp|C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_C.sv|
+!i113 1
+R12
+R13
+R14
+n@segment_@c
+vSegment_D
+R1
+R2
+!i10b 1
+!s100 f=Bi4>AC21OmMHIdg42433
+R3
+IR`MSDBi<hVcClg4YDTmKe1
+R4
+S1
+R0
+w1696119437
+8C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_D.sv
+FC:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_D.sv
+!i122 4
+R16
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_D.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp|C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_D.sv|
+!i113 1
+R12
+R13
+R14
+n@segment_@d
+vSegment_E
+R1
+R2
+!i10b 1
+!s100 fAA5A@JTY0`:mODBVDg?S1
+R3
+I6CnB]F_B74JMiMNSJZ63N2
+R4
+S1
+R0
+w1696119710
+8C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_E.sv
+FC:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_E.sv
+!i122 5
+L0 1 66
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_E.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp|C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_E.sv|
+!i113 1
+R12
+R13
+R14
+n@segment_@e
+vSegment_F
+R1
+R2
+!i10b 1
+!s100 [2IWzg6n>_=f2N<Imh^S93
+R3
+ISnRHH`i08gooE2[4P@ZI_1
+R4
+S1
+R0
+w1696120035
+8C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_F.sv
+FC:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_F.sv
+!i122 6
+L0 1 64
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_F.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp|C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_F.sv|
+!i113 1
+R12
+R13
+R14
+n@segment_@f
+vSegment_G
+R1
+R2
+!i10b 1
+!s100 @UzaaGE8EDbczE3]AeC?^1
+R3
+I0EREJIULa9GhODkEbEGT:2
+R4
+S1
+R0
+w1696120020
+8C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_G.sv
+FC:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_G.sv
+!i122 7
+L0 1 24
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_G.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp|C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/segment_G.sv|
+!i113 1
+R12
+R13
+R14
+n@segment_@g

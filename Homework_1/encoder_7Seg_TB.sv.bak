@@ -1,0 +1,64 @@
+module testbench;
+
+    // Señales de entrada
+    reg A;
+    reg B;
+    reg C;
+
+    // Señales de salida
+    wire segment_A;
+    wire segment_B;
+    wire segment_C;
+    wire segment_D;
+    wire segment_E;
+    wire segment_F;
+    wire segment_G;
+
+    // Instancia del módulo principal
+    encoder_7Seg dut (
+        .A(A),
+        .B(B),
+        .C(C),
+        .segment_A(segment_A),
+        .segment_B(segment_B),
+        .segment_C(segment_C),
+        .segment_D(segment_D),
+        .segment_E(segment_E),
+        .segment_F(segment_F),
+        .segment_G(segment_G)
+    );
+
+    // Generación de patrones de entrada
+    initial begin
+        $monitor("A=%b, B=%b, C=%b, segment_A=%b, segment_B=%b, segment_C=%b, segment_D=%b, segment_E=%b, segment_F=%b, segment_G=%b",
+                 A, B, C, segment_A, segment_B, segment_C, segment_D, segment_E, segment_F, segment_G);
+
+        // Ciclo de prueba
+        A = 0; B = 0; C = 0;
+        #10;
+
+        A = 1; B = 0; C = 0;
+        #10;
+
+        A = 0; B = 1; C = 0;
+        #10;
+
+        A = 1; B = 1; C = 0;
+        #10;
+
+        A = 0; B = 0; C = 1;
+        #10;
+
+        A = 1; B = 0; C = 1;
+        #10;
+
+        A = 0; B = 1; C = 1;
+        #10;
+
+        A = 1; B = 1; C = 1;
+        #10;
+
+        $finish;
+    end
+
+endmodule
