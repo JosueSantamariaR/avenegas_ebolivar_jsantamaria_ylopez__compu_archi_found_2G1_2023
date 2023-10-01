@@ -54,7 +54,7 @@ module Segment_F (
     );
 
     // Compuerta OR de 3 entradas para combinar las salidas de las AND
-    or3_gate or_inst (
+    nor3_gate or_inst (
         .a(and1),
         .b(and2),
         .c(and3),

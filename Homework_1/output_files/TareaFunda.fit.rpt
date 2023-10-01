@@ -1,5 +1,5 @@
 Fitter report for TareaFunda
-Sat Sep 30 20:21:53 2023
+Sat Sep 30 20:43:20 2023
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
@@ -58,7 +58,7 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +---------------------------------+------------------------------------------------+
-; Fitter Status                   ; Successful - Sat Sep 30 20:21:53 2023          ;
+; Fitter Status                   ; Successful - Sat Sep 30 20:43:20 2023          ;
 ; Quartus Prime Version           ; 22.1std.1 Build 917 02/14/2023 SC Lite Edition ;
 ; Revision Name                   ; TareaFunda                                     ;
 ; Top-level Entity Name           ; encoder_7Seg                                   ;
@@ -1358,27 +1358,27 @@ Note: Pin directions (input, output or bidir) are based on device operating in u
 +-----------+-------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                                                          ;
-+-------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------------------------------------------+--------------+--------------+
-; Compilation Hierarchy Node    ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                     ; Entity Name  ; Library Name ;
-+-------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------------------------------------------+--------------+--------------+
-; |encoder_7Seg                 ; 4.0 (0.5)            ; 4.0 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 8 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 10   ; 0            ; |encoder_7Seg                                           ; encoder_7Seg ; work         ;
-;    |Segment_A:segment_A_inst| ; 0.5 (0.0)            ; 0.5 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_A:segment_A_inst                  ; Segment_A    ; work         ;
-;       |or3_gate:or_inst|      ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_A:segment_A_inst|or3_gate:or_inst ; or3_gate     ; work         ;
-;    |Segment_B:segment_B_inst| ; 0.5 (0.0)            ; 0.5 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_B:segment_B_inst                  ; Segment_B    ; work         ;
-;       |or2_gate:or_inst|      ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_B:segment_B_inst|or2_gate:or_inst ; or2_gate     ; work         ;
-;    |Segment_C:segment_C_inst| ; 0.5 (0.0)            ; 0.5 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_C:segment_C_inst                  ; Segment_C    ; work         ;
-;       |or3_gate:or_inst|      ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_C:segment_C_inst|or3_gate:or_inst ; or3_gate     ; work         ;
-;    |Segment_D:segment_D_inst| ; 0.5 (0.0)            ; 0.5 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_D:segment_D_inst                  ; Segment_D    ; work         ;
-;       |or3_gate:or_inst|      ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_D:segment_D_inst|or3_gate:or_inst ; or3_gate     ; work         ;
-;    |Segment_E:segment_E_inst| ; 0.5 (0.0)            ; 0.5 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_E:segment_E_inst                  ; Segment_E    ; work         ;
-;       |or3_gate:or_inst|      ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_E:segment_E_inst|or3_gate:or_inst ; or3_gate     ; work         ;
-;    |Segment_F:segment_F_inst| ; 0.5 (0.0)            ; 0.5 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_F:segment_F_inst                  ; Segment_F    ; work         ;
-;       |or3_gate:or_inst|      ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_F:segment_F_inst|or3_gate:or_inst ; or3_gate     ; work         ;
-;    |Segment_G:segment_G_inst| ; 0.5 (0.0)            ; 0.5 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_G:segment_G_inst                  ; Segment_G    ; work         ;
-;       |or2_gate:or_inst|      ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_G:segment_G_inst|or2_gate:or_inst ; or2_gate     ; work         ;
-+-------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+---------------------------------------------------------+--------------+--------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Fitter Resource Utilization by Entity                                                                                                                                                                                                                                                                                                                                                                                           ;
++-------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+----------------------------------------------------------+--------------+--------------+
+; Compilation Hierarchy Node    ; ALMs needed [=A-B+C] ; [A] ALMs used in final placement ; [B] Estimate of ALMs recoverable by dense packing ; [C] Estimate of ALMs unavailable ; ALMs used for memory ; Combinational ALUTs ; Dedicated Logic Registers ; I/O Registers ; Block Memory Bits ; M10Ks ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                      ; Entity Name  ; Library Name ;
++-------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+----------------------------------------------------------+--------------+--------------+
+; |encoder_7Seg                 ; 4.0 (0.5)            ; 4.0 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 8 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 10   ; 0            ; |encoder_7Seg                                            ; encoder_7Seg ; work         ;
+;    |Segment_A:segment_A_inst| ; 0.5 (0.0)            ; 0.5 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_A:segment_A_inst                   ; Segment_A    ; work         ;
+;       |nor3_gate:or_inst|     ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_A:segment_A_inst|nor3_gate:or_inst ; nor3_gate    ; work         ;
+;    |Segment_B:segment_B_inst| ; 0.5 (0.0)            ; 0.5 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_B:segment_B_inst                   ; Segment_B    ; work         ;
+;       |nor2_gate:or_inst|     ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_B:segment_B_inst|nor2_gate:or_inst ; nor2_gate    ; work         ;
+;    |Segment_C:segment_C_inst| ; 0.5 (0.0)            ; 0.5 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_C:segment_C_inst                   ; Segment_C    ; work         ;
+;       |nor3_gate:or_inst|     ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_C:segment_C_inst|nor3_gate:or_inst ; nor3_gate    ; work         ;
+;    |Segment_D:segment_D_inst| ; 0.5 (0.0)            ; 0.5 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_D:segment_D_inst                   ; Segment_D    ; work         ;
+;       |nor3_gate:or_inst|     ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_D:segment_D_inst|nor3_gate:or_inst ; nor3_gate    ; work         ;
+;    |Segment_E:segment_E_inst| ; 0.5 (0.0)            ; 0.5 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_E:segment_E_inst                   ; Segment_E    ; work         ;
+;       |nor3_gate:or_inst|     ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_E:segment_E_inst|nor3_gate:or_inst ; nor3_gate    ; work         ;
+;    |Segment_F:segment_F_inst| ; 0.5 (0.0)            ; 0.5 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_F:segment_F_inst                   ; Segment_F    ; work         ;
+;       |nor3_gate:or_inst|     ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_F:segment_F_inst|nor3_gate:or_inst ; nor3_gate    ; work         ;
+;    |Segment_G:segment_G_inst| ; 0.5 (0.0)            ; 0.5 (0.0)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (0)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_G:segment_G_inst                   ; Segment_G    ; work         ;
+;       |nor2_gate:or_inst|     ; 0.5 (0.5)            ; 0.5 (0.5)                        ; 0.0 (0.0)                                         ; 0.0 (0.0)                        ; 0.0 (0.0)            ; 1 (1)               ; 0 (0)                     ; 0 (0)         ; 0                 ; 0     ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_G:segment_G_inst|nor2_gate:or_inst ; nor2_gate    ; work         ;
++-------------------------------+----------------------+----------------------------------+---------------------------------------------------+----------------------------------+----------------------+---------------------+---------------------------+---------------+-------------------+-------+------------+------+--------------+----------------------------------------------------------+--------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -1400,35 +1400,35 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------+----------+----+------+------+----+------+-------+--------+------------------------+--------------------------+
 
 
-+------------------------------------------------------------------------------------+
-; Pad To Core Delay Chain Fanout                                                     ;
-+------------------------------------------------------+-------------------+---------+
-; Source Pin / Fanout                                  ; Pad To Core Index ; Setting ;
-+------------------------------------------------------+-------------------+---------+
-; A                                                    ;                   ;         ;
-;      - Segment_A:segment_A_inst|or3_gate:or_inst|y   ; 1                 ; 0       ;
-;      - Segment_B:segment_B_inst|or2_gate:or_inst|y~0 ; 1                 ; 0       ;
-;      - Segment_C:segment_C_inst|or3_gate:or_inst|y   ; 1                 ; 0       ;
-;      - Segment_D:segment_D_inst|or3_gate:or_inst|y~0 ; 1                 ; 0       ;
-;      - Segment_E:segment_E_inst|or3_gate:or_inst|y~0 ; 1                 ; 0       ;
-;      - Segment_F:segment_F_inst|or3_gate:or_inst|y~0 ; 1                 ; 0       ;
-;      - Segment_G:segment_G_inst|or2_gate:or_inst|y   ; 1                 ; 0       ;
-; B                                                    ;                   ;         ;
-;      - Segment_A:segment_A_inst|or3_gate:or_inst|y   ; 0                 ; 0       ;
-;      - Segment_C:segment_C_inst|or3_gate:or_inst|y   ; 0                 ; 0       ;
-;      - Segment_D:segment_D_inst|or3_gate:or_inst|y~0 ; 0                 ; 0       ;
-;      - Segment_E:segment_E_inst|or3_gate:or_inst|y~0 ; 0                 ; 0       ;
-;      - Segment_F:segment_F_inst|or3_gate:or_inst|y~0 ; 0                 ; 0       ;
-;      - Segment_G:segment_G_inst|or2_gate:or_inst|y   ; 0                 ; 0       ;
-; C                                                    ;                   ;         ;
-;      - Segment_A:segment_A_inst|or3_gate:or_inst|y   ; 1                 ; 0       ;
-;      - Segment_B:segment_B_inst|or2_gate:or_inst|y~0 ; 1                 ; 0       ;
-;      - Segment_C:segment_C_inst|or3_gate:or_inst|y   ; 1                 ; 0       ;
-;      - Segment_D:segment_D_inst|or3_gate:or_inst|y~0 ; 1                 ; 0       ;
-;      - Segment_E:segment_E_inst|or3_gate:or_inst|y~0 ; 1                 ; 0       ;
-;      - Segment_F:segment_F_inst|or3_gate:or_inst|y~0 ; 1                 ; 0       ;
-;      - Segment_G:segment_G_inst|or2_gate:or_inst|y   ; 1                 ; 0       ;
-+------------------------------------------------------+-------------------+---------+
++-------------------------------------------------------------------------------------+
+; Pad To Core Delay Chain Fanout                                                      ;
++-------------------------------------------------------+-------------------+---------+
+; Source Pin / Fanout                                   ; Pad To Core Index ; Setting ;
++-------------------------------------------------------+-------------------+---------+
+; A                                                     ;                   ;         ;
+;      - Segment_A:segment_A_inst|nor3_gate:or_inst|y~0 ; 1                 ; 0       ;
+;      - Segment_B:segment_B_inst|nor2_gate:or_inst|y~0 ; 1                 ; 0       ;
+;      - Segment_C:segment_C_inst|nor3_gate:or_inst|y~0 ; 1                 ; 0       ;
+;      - Segment_D:segment_D_inst|nor3_gate:or_inst|y~0 ; 1                 ; 0       ;
+;      - Segment_E:segment_E_inst|nor3_gate:or_inst|y~0 ; 1                 ; 0       ;
+;      - Segment_F:segment_F_inst|nor3_gate:or_inst|y~0 ; 1                 ; 0       ;
+;      - Segment_G:segment_G_inst|nor2_gate:or_inst|y~0 ; 1                 ; 0       ;
+; B                                                     ;                   ;         ;
+;      - Segment_A:segment_A_inst|nor3_gate:or_inst|y~0 ; 0                 ; 0       ;
+;      - Segment_C:segment_C_inst|nor3_gate:or_inst|y~0 ; 0                 ; 0       ;
+;      - Segment_D:segment_D_inst|nor3_gate:or_inst|y~0 ; 0                 ; 0       ;
+;      - Segment_E:segment_E_inst|nor3_gate:or_inst|y~0 ; 0                 ; 0       ;
+;      - Segment_F:segment_F_inst|nor3_gate:or_inst|y~0 ; 0                 ; 0       ;
+;      - Segment_G:segment_G_inst|nor2_gate:or_inst|y~0 ; 0                 ; 0       ;
+; C                                                     ;                   ;         ;
+;      - Segment_A:segment_A_inst|nor3_gate:or_inst|y~0 ; 1                 ; 0       ;
+;      - Segment_B:segment_B_inst|nor2_gate:or_inst|y~0 ; 1                 ; 0       ;
+;      - Segment_C:segment_C_inst|nor3_gate:or_inst|y~0 ; 1                 ; 0       ;
+;      - Segment_D:segment_D_inst|nor3_gate:or_inst|y~0 ; 1                 ; 0       ;
+;      - Segment_E:segment_E_inst|nor3_gate:or_inst|y~0 ; 1                 ; 0       ;
+;      - Segment_F:segment_F_inst|nor3_gate:or_inst|y~0 ; 1                 ; 0       ;
+;      - Segment_G:segment_G_inst|nor2_gate:or_inst|y~0 ; 1                 ; 0       ;
++-------------------------------------------------------+-------------------+---------+
 
 
 +----------------------------------------------------------------------+
@@ -1667,13 +1667,13 @@ Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:03
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:02
 Info (144001): Generated suppressed messages file C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/output_files/TareaFunda.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
     Info: Peak virtual memory: 6172 megabytes
-    Info: Processing ended: Sat Sep 30 20:21:53 2023
-    Info: Elapsed time: 00:00:32
-    Info: Total CPU time (on all processors): 00:00:37
+    Info: Processing ended: Sat Sep 30 20:43:20 2023
+    Info: Elapsed time: 00:00:33
+    Info: Total CPU time (on all processors): 00:00:36
 
 
 +----------------------------+

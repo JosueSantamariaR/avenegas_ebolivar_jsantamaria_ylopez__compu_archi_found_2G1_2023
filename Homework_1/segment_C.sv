@@ -28,7 +28,7 @@ module Segment_C (
     );
 
     // Compuerta OR de 3 entradas para combinar A, B negada y C negada
-    or3_gate or_inst (
+    nor3_gate or_inst (
         .a(A),
         .b(not_B), // Entrada B negada
         .c(not_C), // Entrada C negada

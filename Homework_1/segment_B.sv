@@ -20,7 +20,7 @@ module Segment_B (
     );
 
     // Compuerta OR de 2 entradas para combinar las entradas negadas
-    or2_gate or_inst (
+    nor2_gate or_inst (
         .a(not_A), // Entrada A negada
         .b(not_C), // Entrada C negada
         .y(segment_B) // Salida para el segmento B

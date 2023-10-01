@@ -15,7 +15,7 @@ module Segment_G (
     );
 
     // Compuerta OR de 2 entradas para combinar B y la salida de la compuerta AND
-    or2_gate or_inst (
+    nor2_gate or_inst (
         .a(B),
         .b(and1),
         .y(segment_G) // Salida para el segmento G
