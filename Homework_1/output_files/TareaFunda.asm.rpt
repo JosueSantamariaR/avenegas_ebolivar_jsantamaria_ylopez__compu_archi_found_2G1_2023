@@ -1,5 +1,5 @@
 Assembler report for TareaFunda
-Sat Sep 30 20:43:28 2023
+Mon Oct  2 12:21:20 2023
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
@@ -10,7 +10,7 @@ Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
   2. Assembler Summary
   3. Assembler Settings
   4. Assembler Generated Files
-  5. Assembler Device Options: C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/output_files/TareaFunda.sof
+  5. Assembler Device Options: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/output_files/TareaFunda.sof
   6. Assembler Messages
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Sat Sep 30 20:43:28 2023 ;
+; Assembler Status      ; Successful - Mon Oct  2 12:21:20 2023 ;
 ; Revision Name         ; TareaFunda                            ;
 ; Top-level Entity Name ; encoder_7Seg                          ;
 ; Family                ; Cyclone V                             ;
@@ -53,23 +53,23 @@ https://fpgasoftware.intel.com/eula.
 +--------+---------+---------------+
 
 
-+----------------------------------------------------------------------------------------------------+
-; Assembler Generated Files                                                                          ;
-+----------------------------------------------------------------------------------------------------+
-; File Name                                                                                          ;
-+----------------------------------------------------------------------------------------------------+
-; C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/output_files/TareaFunda.sof ;
-+----------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Generated Files                                                                                                                              ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                                                              ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
+; C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/output_files/TareaFunda.sof ;
++--------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------+
-; Assembler Device Options: C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/output_files/TareaFunda.sof ;
-+----------------+-------------------------------------------------------------------------------------------------------------+
-; Option         ; Setting                                                                                                     ;
-+----------------+-------------------------------------------------------------------------------------------------------------+
-; JTAG usercode  ; 0x00AF6ECD                                                                                                  ;
-; Checksum       ; 0x00AF6ECD                                                                                                  ;
-+----------------+-------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Assembler Device Options: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/output_files/TareaFunda.sof ;
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Option         ; Setting                                                                                                                                                         ;
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; JTAG usercode  ; 0x00AF7149                                                                                                                                                      ;
+; Checksum       ; 0x00AF7149                                                                                                                                                      ;
++----------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 +--------------------+
@@ -78,14 +78,14 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
-    Info: Processing started: Sat Sep 30 20:43:21 2023
+    Info: Processing started: Mon Oct  2 12:21:15 2023
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off TareaFunda -c TareaFunda
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4891 megabytes
-    Info: Processing ended: Sat Sep 30 20:43:28 2023
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:06
+    Info: Peak virtual memory: 4881 megabytes
+    Info: Processing ended: Mon Oct  2 12:21:20 2023
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:02
 
 

@@ -1,14 +1,23 @@
 |encoder_7Seg
 A => A.IN7
 B => B.IN6
-C => C.IN7
-segment_A << Segment_A:segment_A_inst.segment_A
-segment_B << Segment_B:segment_B_inst.segment_B
-segment_C << Segment_C:segment_C_inst.segment_C
-segment_D << Segment_D:segment_D_inst.segment_D
-segment_E << Segment_E:segment_E_inst.segment_E
-segment_F << Segment_F:segment_F_inst.segment_F
-segment_G << Segment_G:segment_G_inst.segment_G
+C => C.IN8
+D0 => D0.IN1
+D1 => D1.IN1
+D2 => D2.IN1
+D3 => D3.IN1
+D4 => D4.IN1
+D5 => D5.IN1
+D6 => D6.IN1
+D7 => D7.IN1
+y <= mux_8to1:mux_inst.y
+segment_A <= Segment_A:segment_A_inst.segment_A
+segment_B <= Segment_B:segment_B_inst.segment_B
+segment_C <= Segment_C:segment_C_inst.segment_C
+segment_D <= Segment_D:segment_D_inst.segment_D
+segment_E <= Segment_E:segment_E_inst.segment_E
+segment_F <= Segment_F:segment_F_inst.segment_F
+segment_G <= Segment_G:segment_G_inst.segment_G
 
 
 |encoder_7Seg|Segment_A:segment_A_inst
@@ -271,5 +280,20 @@ y <= y.DB_MAX_OUTPUT_PORT_TYPE
 a => y.IN0
 b => y.IN1
 y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|encoder_7Seg|mux_8to1:mux_inst
+D0 => Mux0.IN0
+D1 => Mux0.IN1
+D2 => Mux0.IN2
+D3 => Mux0.IN3
+D4 => Mux0.IN4
+D5 => Mux0.IN5
+D6 => Mux0.IN6
+D7 => Mux0.IN7
+select[0] => Mux0.IN10
+select[1] => Mux0.IN9
+select[2] => Mux0.IN8
+y <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
 
 
