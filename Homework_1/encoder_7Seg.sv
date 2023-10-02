@@ -9,6 +9,7 @@ module encoder_7Seg (
     output wire segment_E, // Salida para el segmento E
     output wire segment_F, // Salida para el segmento F
     output wire segment_G // Salida para el segmento G
+    output wire SalidaMux
 );
 
     // Instancias de los módulos de los segmentos
@@ -65,12 +66,12 @@ module encoder_7Seg (
     wire D0; 
     wire D1; 
     wire D2; 
-	 wire D3; 
+    wire D3; 
     wire D4; 
     wire D5;
-	 wire D6; 
+    wire D6; 
     wire D7; 
-	 wire [2:0] mux_select;
+    wire [2:0] mux_select;
 
     assign mux_select = {A, B, C};
 
@@ -86,7 +87,7 @@ module encoder_7Seg (
         .D6(D6), 
         .D7(D7), 
         .select(mux_select), 
-        .y() 
+	.SalidaMux(y) 
     );
 	 
 	 
