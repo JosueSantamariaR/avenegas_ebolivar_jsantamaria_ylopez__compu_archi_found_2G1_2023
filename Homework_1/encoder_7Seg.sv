@@ -59,5 +59,36 @@ module encoder_7Seg (
         .C(C),
         .segment_G(segment_G)
     );
+	 
+	 
+	  // Definición de las entradas del MUX a través del pin planner
+    wire D0; 
+    wire D1; 
+    wire D2; 
+	 wire D3; 
+    wire D4; 
+    wire D5;
+	 wire D6; 
+    wire D7; 
+	 wire [2:0] mux_select;
+
+    assign mux_select = {A, B, C};
+
+
+    // Instancia del MUX
+    mux_8to1 mux_inst (
+        .D0(D0), 
+        .D1(D1), 
+        .D2(D2),
+        .D3(D3), 
+        .D4(D4), 
+        .D5(D5), 
+        .D6(D6), 
+        .D7(D7), 
+        .select(mux_select), 
+        .y() 
+    );
+	 
+	 
 
 endmodule
