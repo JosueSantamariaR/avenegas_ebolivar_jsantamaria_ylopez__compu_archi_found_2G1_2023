@@ -88,7 +88,7 @@ module encoder_7Seg (
         .D6(D6), 
         .D7(D7), 
         .select(mux_select), 
-	.y(y) 
+		  .y(y) 
     );
 	 
 	 
