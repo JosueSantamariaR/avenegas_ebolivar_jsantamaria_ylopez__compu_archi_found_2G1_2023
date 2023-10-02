@@ -8,7 +8,7 @@ module encoder_7Seg (
     output wire segment_D, // Salida para el segmento D
     output wire segment_E, // Salida para el segmento E
     output wire segment_F, // Salida para el segmento F
-    output wire segment_G // Salida para el segmento G
+    output wire segment_G, // Salida para el segmento G
     output wire SalidaMux
 );
 
