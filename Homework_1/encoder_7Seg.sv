@@ -2,6 +2,16 @@ module encoder_7Seg (
     input wire A, // Entrada A
     input wire B, // Entrada B
     input wire C, // Entrada C
+// Definición de las entradas del MUX a través del pin planner
+    input wire D0,
+    input wire D1,
+    input wire D2,
+    input wire D3,
+    input wire D4,
+    input wire D5,
+    input wire D6,
+    input wire D7,
+    output wire y, //Salida Mux
     output wire segment_A, // Salida para el segmento A
     output wire segment_B, // Salida para el segmento B
     output wire segment_C, // Salida para el segmento C
@@ -9,6 +19,7 @@ module encoder_7Seg (
     output wire segment_E, // Salida para el segmento E
     output wire segment_F, // Salida para el segmento F
     output wire segment_G// Salida para el segmento G
+
 
 );
 
@@ -62,17 +73,6 @@ module encoder_7Seg (
     );
 	 
 	 
-	  // Definición de las entradas del MUX a través del pin planner
-    wire D0; 
-    wire D1; 
-    wire D2; 
-    wire D3; 
-    wire D4; 
-    wire D5;
-    wire D6; 
-    wire D7; 
-    wire [2:0] mux_select;
-    wire y;
 
     assign mux_select = {A, B, C};
 
