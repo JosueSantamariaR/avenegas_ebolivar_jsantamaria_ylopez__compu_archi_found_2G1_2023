@@ -2,6 +2,9 @@
 A => A.IN7
 B => B.IN6
 C => C.IN8
+Ao << A.DB_MAX_OUTPUT_PORT_TYPE
+Bo << B.DB_MAX_OUTPUT_PORT_TYPE
+Co << C.DB_MAX_OUTPUT_PORT_TYPE
 D0 => D0.IN1
 D1 => D1.IN1
 D2 => D2.IN1
@@ -10,14 +13,14 @@ D4 => D4.IN1
 D5 => D5.IN1
 D6 => D6.IN1
 D7 => D7.IN1
-y <= mux_8to1:mux_inst.y
-segment_A <= Segment_A:segment_A_inst.segment_A
-segment_B <= Segment_B:segment_B_inst.segment_B
-segment_C <= Segment_C:segment_C_inst.segment_C
-segment_D <= Segment_D:segment_D_inst.segment_D
-segment_E <= Segment_E:segment_E_inst.segment_E
-segment_F <= Segment_F:segment_F_inst.segment_F
-segment_G <= Segment_G:segment_G_inst.segment_G
+y << mux_8to1:mux_inst.y
+segment_A << Segment_A:segment_A_inst.segment_A
+segment_B << Segment_B:segment_B_inst.segment_B
+segment_C << Segment_C:segment_C_inst.segment_C
+segment_D << Segment_D:segment_D_inst.segment_D
+segment_E << Segment_E:segment_E_inst.segment_E
+segment_F << Segment_F:segment_F_inst.segment_F
+segment_G << Segment_G:segment_G_inst.segment_G
 
 
 |encoder_7Seg|Segment_A:segment_A_inst

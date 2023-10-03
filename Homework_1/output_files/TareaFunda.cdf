@@ -6,7 +6,7 @@ JedecChain;
 	P ActionCode(Ign)
 		Device PartName(SOCVHPS) MfrSpec(OpMask(0));
 	P ActionCode(Cfg)
-		Device PartName(5CSEMA5F31) Path("C:/Users/ASUS/OneDrive - Estudiantes ITCR/Documentos/FundamentosACTemp/output_files/") File("TareaFunda.sof") MfrSpec(OpMask(1));
+		Device PartName(5CSEMA5F31) Path("C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/output_files/") File("TareaFunda.sof") MfrSpec(OpMask(1));
 
 ChainEnd;
 

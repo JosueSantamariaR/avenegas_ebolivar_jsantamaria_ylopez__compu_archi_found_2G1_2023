@@ -54,19 +54,9 @@ set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_symbol
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_signal_integrity
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST OFF -section_id eda_board_design_boundary_scan
-set_global_assignment -name SYSTEMVERILOG_FILE gates.sv
-set_global_assignment -name SYSTEMVERILOG_FILE segment_A.sv
-set_global_assignment -name SYSTEMVERILOG_FILE segment_B.sv
-set_global_assignment -name SYSTEMVERILOG_FILE segment_C.sv
-set_global_assignment -name SYSTEMVERILOG_FILE segment_D.sv
-set_global_assignment -name SYSTEMVERILOG_FILE segment_E.sv
-set_global_assignment -name SYSTEMVERILOG_FILE segment_F.sv
-set_global_assignment -name SYSTEMVERILOG_FILE segment_G.sv
-set_global_assignment -name SYSTEMVERILOG_FILE encoder_7Seg.sv
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name SYSTEMVERILOG_FILE encoder_7Seg_TB.sv
 set_location_assignment PIN_AE26 -to segment_A
 set_location_assignment PIN_AE27 -to segment_B
 set_location_assignment PIN_AE28 -to segment_C
@@ -83,7 +73,7 @@ set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id encoder_7Seg
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME encoder_7Seg_TB -section_id encoder_7Seg_TB
 set_global_assignment -name EDA_TEST_BENCH_FILE encoder_7Seg_TB.sv -section_id encoder_7Seg_TB
 set_global_assignment -name EDA_RUN_TOOL_AUTOMATICALLY OFF -section_id eda_simulation
-set_location_assignment PIN_AC18 -to y
+set_location_assignment PIN_AJ26 -to y
 set_location_assignment PIN_AB12 -to D0
 set_location_assignment PIN_AC12 -to D1
 set_location_assignment PIN_AF9 -to D2
@@ -92,7 +82,21 @@ set_location_assignment PIN_AD11 -to D4
 set_location_assignment PIN_AD12 -to D5
 set_location_assignment PIN_AE11 -to D6
 set_location_assignment PIN_AC9 -to D7
-set_location_assignment PIN_Y17 -to A
-set_location_assignment PIN_AD17 -to B
-set_location_assignment PIN_Y18 -to C
+set_location_assignment PIN_AK28 -to A
+set_location_assignment PIN_AJ27 -to B
+set_location_assignment PIN_AH24 -to C
+set_global_assignment -name SYSTEMVERILOG_FILE mux_8to1.sv
+set_global_assignment -name SYSTEMVERILOG_FILE gates.sv
+set_global_assignment -name SYSTEMVERILOG_FILE segment_A.sv
+set_global_assignment -name SYSTEMVERILOG_FILE segment_B.sv
+set_global_assignment -name SYSTEMVERILOG_FILE segment_C.sv
+set_global_assignment -name SYSTEMVERILOG_FILE segment_D.sv
+set_global_assignment -name SYSTEMVERILOG_FILE segment_E.sv
+set_global_assignment -name SYSTEMVERILOG_FILE segment_F.sv
+set_global_assignment -name SYSTEMVERILOG_FILE segment_G.sv
+set_global_assignment -name SYSTEMVERILOG_FILE encoder_7Seg.sv
+set_global_assignment -name SYSTEMVERILOG_FILE encoder_7Seg_TB.sv
+set_location_assignment PIN_V17 -to Ao
+set_location_assignment PIN_W16 -to Bo
+set_location_assignment PIN_V16 -to Co
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

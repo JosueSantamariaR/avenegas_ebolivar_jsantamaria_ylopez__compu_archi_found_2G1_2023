@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Mon Oct  2 12:20:50 2023
+Analysis & Synthesis Status : Successful - Mon Oct  2 19:53:38 2023
 Quartus Prime Version : 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 Revision Name : TareaFunda
 Top-level Entity Name : encoder_7Seg
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 0
-Total pins : 19
+Total pins : 22
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

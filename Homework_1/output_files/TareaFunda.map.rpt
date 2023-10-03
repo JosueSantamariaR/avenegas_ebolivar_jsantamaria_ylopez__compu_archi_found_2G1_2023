@@ -1,5 +1,5 @@
 Analysis & Synthesis report for TareaFunda
-Mon Oct  2 12:20:50 2023
+Mon Oct  2 19:53:38 2023
 Quartus Prime Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
 
 
@@ -46,14 +46,14 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +---------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Oct  2 12:20:50 2023          ;
+; Analysis & Synthesis Status     ; Successful - Mon Oct  2 19:53:38 2023          ;
 ; Quartus Prime Version           ; 22.1std.1 Build 917 02/14/2023 SC Lite Edition ;
 ; Revision Name                   ; TareaFunda                                     ;
 ; Top-level Entity Name           ; encoder_7Seg                                   ;
 ; Family                          ; Cyclone V                                      ;
 ; Logic utilization (in ALMs)     ; N/A                                            ;
 ; Total registers                 ; 0                                              ;
-; Total pins                      ; 19                                             ;
+; Total pins                      ; 22                                             ;
 ; Total virtual pins              ; 0                                              ;
 ; Total block memory bits         ; 0                                              ;
 ; Total DSP Blocks                ; 0                                              ;
@@ -158,8 +158,8 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -169,22 +169,22 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                         ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type                          ; File Name with Absolute Path                                                                                                               ; Library ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; gates.sv                         ; yes             ; User SystemVerilog HDL File        ; C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/gates.sv        ;         ;
-; segment_A.sv                     ; yes             ; User SystemVerilog HDL File        ; C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_A.sv    ;         ;
-; segment_B.sv                     ; yes             ; User SystemVerilog HDL File        ; C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_B.sv    ;         ;
-; segment_C.sv                     ; yes             ; User SystemVerilog HDL File        ; C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_C.sv    ;         ;
-; segment_D.sv                     ; yes             ; User SystemVerilog HDL File        ; C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_D.sv    ;         ;
-; segment_E.sv                     ; yes             ; User SystemVerilog HDL File        ; C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_E.sv    ;         ;
-; segment_F.sv                     ; yes             ; User SystemVerilog HDL File        ; C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_F.sv    ;         ;
-; segment_G.sv                     ; yes             ; User SystemVerilog HDL File        ; C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_G.sv    ;         ;
-; encoder_7Seg.sv                  ; yes             ; User SystemVerilog HDL File        ; C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv ;         ;
-; mux_8to1.sv                      ; yes             ; Auto-Found SystemVerilog HDL File  ; C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/mux_8to1.sv     ;         ;
-+----------------------------------+-----------------+------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                                           ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type                    ; File Name with Absolute Path                                                                                                                                                       ; Library ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+; mux_8to1.sv                      ; yes             ; User SystemVerilog HDL File  ; C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/mux_8to1.sv     ;         ;
+; gates.sv                         ; yes             ; User SystemVerilog HDL File  ; C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/gates.sv        ;         ;
+; segment_A.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_A.sv    ;         ;
+; segment_B.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_B.sv    ;         ;
+; segment_C.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_C.sv    ;         ;
+; segment_D.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_D.sv    ;         ;
+; segment_E.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_E.sv    ;         ;
+; segment_F.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_F.sv    ;         ;
+; segment_G.sv                     ; yes             ; User SystemVerilog HDL File  ; C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_G.sv    ;         ;
+; encoder_7Seg.sv                  ; yes             ; User SystemVerilog HDL File  ; C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv ;         ;
++----------------------------------+-----------------+------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +-------------------------------------------------------+
@@ -203,14 +203,14 @@ https://fpgasoftware.intel.com/eula.
 ;                                             ;         ;
 ; Dedicated logic registers                   ; 0       ;
 ;                                             ;         ;
-; I/O pins                                    ; 19      ;
+; I/O pins                                    ; 22      ;
 ;                                             ;         ;
 ; Total DSP Blocks                            ; 0       ;
 ;                                             ;         ;
 ; Maximum fan-out node                        ; C~input ;
-; Maximum fan-out                             ; 8       ;
-; Total fan-out                               ; 50      ;
-; Average fan-out                             ; 1.09    ;
+; Maximum fan-out                             ; 9       ;
+; Total fan-out                               ; 56      ;
+; Average fan-out                             ; 1.08    ;
 +---------------------------------------------+---------+
 
 
@@ -219,7 +219,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------+--------------+--------------+
 ; Compilation Hierarchy Node    ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                                      ; Entity Name  ; Library Name ;
 +-------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------------------------+--------------+--------------+
-; |encoder_7Seg                 ; 8 (0)               ; 0 (0)                     ; 0                 ; 0          ; 19   ; 0            ; |encoder_7Seg                                            ; encoder_7Seg ; work         ;
+; |encoder_7Seg                 ; 8 (0)               ; 0 (0)                     ; 0                 ; 0          ; 22   ; 0            ; |encoder_7Seg                                            ; encoder_7Seg ; work         ;
 ;    |Segment_A:segment_A_inst| ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_A:segment_A_inst                   ; Segment_A    ; work         ;
 ;       |nor3_gate:or_inst|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_A:segment_A_inst|nor3_gate:or_inst ; nor3_gate    ; work         ;
 ;    |Segment_B:segment_B_inst| ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |encoder_7Seg|Segment_B:segment_B_inst                   ; Segment_B    ; work         ;
@@ -291,7 +291,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;         1 data inputs ; 7                           ;
 ;         2 data inputs ; 1                           ;
 ;         3 data inputs ; 7                           ;
-; boundary_port         ; 19                          ;
+; boundary_port         ; 22                          ;
 ;                       ;                             ;
 ; Max LUT depth         ; 2.00                        ;
 ; Average LUT depth     ; 1.85                        ;
@@ -313,71 +313,71 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.1 Build 917 02/14/2023 SC Lite Edition
-    Info: Processing started: Mon Oct  2 12:20:43 2023
+    Info: Processing started: Mon Oct  2 19:53:19 2023
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off TareaFunda -c TareaFunda
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
+Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
+Info (12021): Found 1 design units, including 1 entities, in source file mux_8to1.sv
+    Info (12023): Found entity 1: mux_8to1 File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/mux_8to1.sv Line: 1
 Info (12021): Found 5 design units, including 5 entities, in source file gates.sv
-    Info (12023): Found entity 1: and2_gate File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/gates.sv Line: 1
-    Info (12023): Found entity 2: and3_gate File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/gates.sv Line: 9
-    Info (12023): Found entity 3: not_gate File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/gates.sv Line: 19
-    Info (12023): Found entity 4: nor2_gate File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/gates.sv Line: 26
-    Info (12023): Found entity 5: nor3_gate File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/gates.sv Line: 34
+    Info (12023): Found entity 1: and2_gate File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/gates.sv Line: 1
+    Info (12023): Found entity 2: and3_gate File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/gates.sv Line: 9
+    Info (12023): Found entity 3: not_gate File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/gates.sv Line: 19
+    Info (12023): Found entity 4: nor2_gate File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/gates.sv Line: 26
+    Info (12023): Found entity 5: nor3_gate File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/gates.sv Line: 34
 Info (12021): Found 1 design units, including 1 entities, in source file segment_a.sv
-    Info (12023): Found entity 1: Segment_A File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_A.sv Line: 1
+    Info (12023): Found entity 1: Segment_A File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_A.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file segment_b.sv
-    Info (12023): Found entity 1: Segment_B File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_B.sv Line: 1
+    Info (12023): Found entity 1: Segment_B File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_B.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file segment_c.sv
-    Info (12023): Found entity 1: Segment_C File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_C.sv Line: 1
+    Info (12023): Found entity 1: Segment_C File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_C.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file segment_d.sv
-    Info (12023): Found entity 1: Segment_D File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_D.sv Line: 1
+    Info (12023): Found entity 1: Segment_D File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_D.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file segment_e.sv
-    Info (12023): Found entity 1: Segment_E File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_E.sv Line: 1
+    Info (12023): Found entity 1: Segment_E File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_E.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file segment_f.sv
-    Info (12023): Found entity 1: Segment_F File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_F.sv Line: 1
+    Info (12023): Found entity 1: Segment_F File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_F.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file segment_g.sv
-    Info (12023): Found entity 1: Segment_G File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_G.sv Line: 1
+    Info (12023): Found entity 1: Segment_G File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_G.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file encoder_7seg.sv
-    Info (12023): Found entity 1: encoder_7Seg File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 1
+    Info (12023): Found entity 1: encoder_7Seg File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file encoder_7seg_tb.sv
-    Info (12023): Found entity 1: encoder_7Seg_TB File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg_TB.sv Line: 1
-Warning (10236): Verilog HDL Implicit Net warning at encoder_7Seg.sv(77): created implicit net for "mux_select" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 77
+    Info (12023): Found entity 1: encoder_7Seg_TB File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg_TB.sv Line: 1
+Warning (10236): Verilog HDL Implicit Net warning at encoder_7Seg.sv(82): created implicit net for "mux_select" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 82
 Info (12127): Elaborating entity "encoder_7Seg" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at encoder_7Seg.sv(77): truncated value with size 3 to match size of target (1) File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 77
-Info (12128): Elaborating entity "Segment_A" for hierarchy "Segment_A:segment_A_inst" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 32
-Info (12128): Elaborating entity "not_gate" for hierarchy "Segment_A:segment_A_inst|not_gate:not_A_inst" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_A.sv Line: 17
-Info (12128): Elaborating entity "and2_gate" for hierarchy "Segment_A:segment_A_inst|and2_gate:and1_inst" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_A.sv Line: 36
-Info (12128): Elaborating entity "nor3_gate" for hierarchy "Segment_A:segment_A_inst|nor3_gate:or_inst" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_A.sv Line: 56
-Info (12128): Elaborating entity "Segment_B" for hierarchy "Segment_B:segment_B_inst" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 38
-Info (12128): Elaborating entity "nor2_gate" for hierarchy "Segment_B:segment_B_inst|nor2_gate:or_inst" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_B.sv Line: 27
-Info (12128): Elaborating entity "Segment_C" for hierarchy "Segment_C:segment_C_inst" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 45
-Info (12128): Elaborating entity "Segment_D" for hierarchy "Segment_D:segment_D_inst" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 52
-Info (12128): Elaborating entity "Segment_E" for hierarchy "Segment_E:segment_E_inst" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 59
-Info (12128): Elaborating entity "and3_gate" for hierarchy "Segment_E:segment_E_inst|and3_gate:and1_inst" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_E.sv Line: 40
-Info (12128): Elaborating entity "Segment_F" for hierarchy "Segment_F:segment_F_inst" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 66
-Info (12128): Elaborating entity "Segment_G" for hierarchy "Segment_G:segment_G_inst" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 73
-Warning (12125): Using design file mux_8to1.sv, which is not specified as a design file for the current project, but contains definitions for 1 design units and 1 entities in project
-    Info (12023): Found entity 1: mux_8to1 File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/mux_8to1.sv Line: 1
-Info (12128): Elaborating entity "mux_8to1" for hierarchy "mux_8to1:mux_inst" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 92
+Warning (10230): Verilog HDL assignment warning at encoder_7Seg.sv(82): truncated value with size 3 to match size of target (1) File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 82
+Info (12128): Elaborating entity "Segment_A" for hierarchy "Segment_A:segment_A_inst" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 35
+Info (12128): Elaborating entity "not_gate" for hierarchy "Segment_A:segment_A_inst|not_gate:not_A_inst" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_A.sv Line: 17
+Info (12128): Elaborating entity "and2_gate" for hierarchy "Segment_A:segment_A_inst|and2_gate:and1_inst" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_A.sv Line: 36
+Info (12128): Elaborating entity "nor3_gate" for hierarchy "Segment_A:segment_A_inst|nor3_gate:or_inst" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_A.sv Line: 56
+Info (12128): Elaborating entity "Segment_B" for hierarchy "Segment_B:segment_B_inst" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 41
+Info (12128): Elaborating entity "nor2_gate" for hierarchy "Segment_B:segment_B_inst|nor2_gate:or_inst" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_B.sv Line: 27
+Info (12128): Elaborating entity "Segment_C" for hierarchy "Segment_C:segment_C_inst" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 48
+Info (12128): Elaborating entity "Segment_D" for hierarchy "Segment_D:segment_D_inst" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 55
+Info (12128): Elaborating entity "Segment_E" for hierarchy "Segment_E:segment_E_inst" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 62
+Info (12128): Elaborating entity "and3_gate" for hierarchy "Segment_E:segment_E_inst|and3_gate:and1_inst" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/segment_E.sv Line: 40
+Info (12128): Elaborating entity "Segment_F" for hierarchy "Segment_F:segment_F_inst" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 69
+Info (12128): Elaborating entity "Segment_G" for hierarchy "Segment_G:segment_G_inst" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 76
+Info (12128): Elaborating entity "mux_8to1" for hierarchy "mux_8to1:mux_inst" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 97
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 6 input pin(s) that do not drive logic
-    Warning (15610): No output dependent on input pin "D2" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 8
-    Warning (15610): No output dependent on input pin "D3" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 9
-    Warning (15610): No output dependent on input pin "D4" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 10
-    Warning (15610): No output dependent on input pin "D5" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 11
-    Warning (15610): No output dependent on input pin "D6" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 12
-    Warning (15610): No output dependent on input pin "D7" File: C:/Users/yarit/OneDrive/Escritorio/Tallr/Funda/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 13
-Info (21057): Implemented 27 device resources after synthesis - the final resource count might be different
+    Warning (15610): No output dependent on input pin "D2" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 11
+    Warning (15610): No output dependent on input pin "D3" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 12
+    Warning (15610): No output dependent on input pin "D4" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 13
+    Warning (15610): No output dependent on input pin "D5" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 14
+    Warning (15610): No output dependent on input pin "D6" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 15
+    Warning (15610): No output dependent on input pin "D7" File: C:/GitHub/Fundamentos/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/avenegas_ebolivar_jsantamaria_ylopez__compu_archi_found_2G1_2023/Homework_1/encoder_7Seg.sv Line: 16
+Info (21057): Implemented 30 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 11 input pins
-    Info (21059): Implemented 8 output pins
+    Info (21059): Implemented 11 output pins
     Info (21061): Implemented 8 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 12 warnings
-    Info: Peak virtual memory: 4832 megabytes
-    Info: Processing ended: Mon Oct  2 12:20:50 2023
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:06
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 11 warnings
+    Info: Peak virtual memory: 4823 megabytes
+    Info: Processing ended: Mon Oct  2 19:53:38 2023
+    Info: Elapsed time: 00:00:19
+    Info: Total CPU time (on all processors): 00:00:38
 
 
